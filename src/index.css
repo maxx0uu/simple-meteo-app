@@ -2,8 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 
 body {
 	font-family: "Montserrat", sans-serif;
+}
+
+.temp-font {
+	font-family: "Pacifico", cursive;
+}
+
+.next-days:first-of-type {
+	@apply bg-opacity-100;
 }
